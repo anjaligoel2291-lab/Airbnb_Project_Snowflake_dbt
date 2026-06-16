@@ -1,0 +1,13 @@
+aws_dbt_snowflake:
+  outputs:
+    dev:
+      account: VXGTTFB-OM09937
+      database: airbnb
+      password: Amazekia123456
+      role: accountadmin
+      schema: dbt_schema
+      threads: 1
+      type: snowflake
+      user: anjaligoel22
+      warehouse: compute_wh
+  target: dev
