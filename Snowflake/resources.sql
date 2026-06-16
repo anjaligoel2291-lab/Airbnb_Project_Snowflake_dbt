@@ -10,7 +10,7 @@ SHOW FILE FORMATS;
 CREATE OR REPLACE STAGE sourcestage
 FILE_FORMAT = csv_format
 URL = 's3://snowbucketag/source/'
-CREDENTIALS=(aws_key_id='AKIATNPW7CVXFKYYHLOR', aws_secret_key='cV0rxILSAwCdBIpyGRF99QcCGxA+wyM1yzS2WATw');
+CREDENTIALS=(aws_key_id='******', aws_secret_key='********');
 
 show stages;
 
